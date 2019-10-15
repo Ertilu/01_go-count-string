@@ -63,5 +63,5 @@ func main() {
 	fmt.Scanln(&input)
 	fmt.Println(count(input))
 }
-
+ 
 // note: vowels are not calculated twice
