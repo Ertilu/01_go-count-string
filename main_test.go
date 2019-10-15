@@ -58,4 +58,4 @@ func BenchmarkCount(b *testing.B) {
 		input := "aiueo"
 		count(input)
 	}
-}
+} 
