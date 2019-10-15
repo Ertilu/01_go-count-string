@@ -16,3 +16,10 @@ func TestCount(t *testing.T) {
 		}
 	})
 }
+
+func BenchmarkCount(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		input := "aiueo"
+		count(input)
+	}
+}
